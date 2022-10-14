@@ -1,0 +1,28 @@
+.pictures{
+    width: 100px;
+    height: 100px;
+}
+button:first-child{
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+button:first-child:hover{
+    background-color: aqua;
+    transition:1s;
+}
+button:nth-child(2){
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+button:nth-child(2):hover{
+    background-color: orange;
+    transition:1s;
+}
